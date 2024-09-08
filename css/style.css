@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 5px;
+    background-color: antiquewhite;
+    font-family: "Libre Baskerville", serif;
+}
+
+nav .contact {
+    background-color:#bad0bc;
+    color:#49332a;
+    border: 5px solid #668461;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Libre Baskerville", serif;
+}
+
+nav i {
+    color: #668461;
+    font-size: large;
+}
+
+footer {
+    background-color:#bad0bc;
+    border: 5px solid #668461;
+    padding: 5px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.splash h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: xx-large;
+    color: #49332a;
+    text-align: center;
+}
+
+.splash img {
+    border: 5px solid #49332a;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address-line {
+    font-family: "Libre Baskerville", serif;
+    font-size: small;
+    color: #49332a;
+    text-align: center;
+}
+
+.tag-line {
+    font-family: "Libre Baskerville", serif;
+    font-size: small;
+    color: #49332a;
+    text-align: center;
+}
+
+.education-section, .haa-section, .skills-section, .lea-section, .projects-section{
+    font-family: "Libre Baskerville", serif;
+    font-size: small;
+    color: #49332a;
+}
+
+h2 {
+    font-size:x-large;
+    color:#49332a;
+    text-align: center;
+}
+
+h3 {
+    font-size: medium;
+}
+
+hr {
+    border-top: 3px dotted #49332a;
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style-type:disc;
+    color:#49332a;
+    padding-inline-start: 20px;
+}
+  
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #49332a;
+}
+
+a {
+    color: #49332a;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: #668461;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+    border: 3px dotted #49332a;
+    padding-top: 5px;
+    padding-inline-end: 5px;
+}
+
+.three-col h3, img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-h1 h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: xx-large;
+    color: #49332a;
+    text-align: center;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-bottom: 5px;
+    color:#49332a;
+}
+
+.one-col form, input[type="submit" i] {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+input[type="submit" i] {
+    margin-bottom: 5px;
+    font-family: "Libre Baskerville", serif ;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
